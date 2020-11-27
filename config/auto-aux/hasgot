@@ -15,7 +15,7 @@
 #*                                                                        *
 #**************************************************************************
 
-opts=""
+opts="-Wno-implicit-function-declaration"
 libs="$cclibs"
 args=$*
 rm -f hasgot.c
